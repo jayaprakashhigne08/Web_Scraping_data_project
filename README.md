@@ -22,26 +22,7 @@
     Tools and Libraries Used:
     requests:
 
-Facilitates HTTP requests to fetch the web page content.
-Example: r = requests.get(url) retrieves the HTML source of the IPL auction page.
-BeautifulSoup (from bs4):
 
-Parses the HTML content and navigates the page structure.
-Example: soup.find("table", class_="ih-td-tab") locates the target table.
-pandas:
-
-Provides a DataFrame structure to organize and manipulate the extracted data.
-Example: df.to_excel() exports the DataFrame to an Excel file.
-lxml:
-
-A parser used by BeautifulSoup for efficient HTML and XML parsing.
-Steps Performed:
-Fetch Web Page:
-
-The IPL auction page is downloaded using requests.
-Parse and Locate Table:
-
-The HTML is parsed using BeautifulSoup, and the target table is identified using its CSS class.
 Extract Data:
 
 Table headers (<th>) and rows (<tr>) are extracted, processed, and stored in a pandas DataFrame.
