@@ -14,8 +14,8 @@ Employs BeautifulSoup from the bs4 library to parse the HTML and extract relevan
 Extracts table headers and rows dynamically.
 Ensures consistency between the number of headers and row data to avoid mismatched entries.
 Logs mismatched rows to help debug issues with incomplete or malformed data.
-Data Storage:
 
+3. Data Storage:
 Utilizes pandas to structure the data into a DataFrame.
 Exports the processed data to an Excel file for easy sharing and analysis.
 Tools and Libraries Used:
