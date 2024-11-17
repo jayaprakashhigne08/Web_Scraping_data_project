@@ -11,7 +11,7 @@
     Uses the requests library to fetch the HTML content of the IPL auction page.
     Employs BeautifulSoup from the bs4 library to parse the HTML and extract relevant table data.
 
-  2.Data Processing:
+  2.Data Processing: 
     Extracts table headers and rows dynamically.
     Ensures consistency between the number of headers and row data to avoid mismatched entries.
     Logs mismatched rows to help debug issues with incomplete or malformed data.
