@@ -45,6 +45,7 @@ Example: df.to_excel() exports the DataFrame to an Excel file.
 A parser used by BeautifulSoup for efficient HTML and XML parsing.
 
 # Steps Performed:
+
 1. Fetch Web Page:
 
 The IPL auction page is downloaded using requests.
