@@ -1,7 +1,8 @@
-# IPL Auction Data Scraper
+#IPL Auction Data Scraper
+
 This project demonstrates how to extract structured data from a web page, process it using Python, and save it for further analysis. Specifically, it scrapes data from the IPL 2023 auction page, processes the extracted table, and exports the results to an Excel file.
 
-##Features:
+Features:
 
 1.Web Scraping:
 
